@@ -1,0 +1,23 @@
+name: scnova
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.9
+  - pip:
+      - anndata==0.12.6
+      - arboreto==0.1.6
+      - ipykernel==7.1.0
+      - ipython==9.7.0
+      - jupyterlab==4.4.10
+      - matplotlib==3.10.7
+      - metacells==0.9.5
+      - networkx==3.5
+      - numpy==2.3.4
+      - pandas==2.3.3
+      - pyscenic==0.12.1+11.g06bafba
+      - scanpy==1.11.5
+      - scikit-learn==1.7.2
+      - scipy==1.16.3
+      - scvi-tools==1.4.0.post1
+      - seaborn==0.13.2
+      - statsmodels==0.14.5
