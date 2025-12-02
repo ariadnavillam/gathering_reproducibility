@@ -3,8 +3,12 @@ A repository for our gathering on reproducibility on the 2nd of December 2025
 # Instructions
 1. Install the [uv python package manager](https://docs.astral.sh/uv/)
 2. Clone the repository
-3. Try to install the environment specified by `environment.yml` using `uv`
-4. Use uv to run `try_to_run_me_after_env_install.py`
+3. Create a new branch locally
+5. Install the environment specified by `environment.yml` using `uv`
+6. Use uv to run `try_to_run_me_after_env_install.py`
+7. Try adding a new dependency to the project and also to the script
+8. Commit changes made to `pyproject.toml` and `uv.lock` file to your branch
+9. (Optional) Push your branch to this repository (only possible for menchelab members otherwise you can also try to fork and push to your own)
 
 # Bonus level
 Once you managed to install the environment with `uv` you can try to create a container image containing the envrionment. To do so try the following
